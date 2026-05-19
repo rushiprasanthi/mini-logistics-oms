@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      ORACLE_USER: "admin"
+      ORACLE_PASSWORD: "oraclepwd"
+      ORACLE_HOST: "oracle_host"
+      ORACLE_PORT: "1521"
+      ORACLE_SERVICE: "ORCLCDB.localdomain"
+      JWT_SECRET_KEY: replace-this-secret
+    ports:
+      - "8000:8000"
