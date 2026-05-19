@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mini Logistics & Order Management System (OMS)
 
 > Enterprise-inspired full-stack Order Management System built with **FastAPI + Oracle + React + Vite** implementing JWT authentication, RBAC authorization, FSM workflow validation, audit trails, shipment tracking, and responsive operational dashboards.
@@ -477,3 +478,7 @@ Project implementation details derived from uploaded engineering and implementat
 
 *
 *
+=======
+# mini-logistics-oms
+Production-style Mini Logistics &amp; Order Management System with JWT authentication, RBAC, FSM workflow, FastAPI backend, React frontend, Swagger APIs, and layered architecture.
+>>>>>>> b4df4be677c5eb0dfaea773f00097460e174e0d6
